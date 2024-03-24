@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Website [Live]()
 
-## Getting Started
 
-First, run the development server:
+Welcome to my immersive peddal-connect, a digital canvas that encapsulates his professional journey, accomplishments, and expertise. This meticulously crafted multipage website is a testament to my skills and showcases his diverse range of projects and experiences.
+
+## Features
+
+- **Email Integration:** Utilizes `@emailjs/browser` to handle email functionality.
+- **UI Components:** Built using `@mantine/core` and `@mantine/form` for UI elements.
+- **Database Connectivity:** Integrates with Firebase (`firebase`) for database functionalities.
+- **Animations:** Utilizes `framer-motion` and `lottie-react` for engaging animations.
+- **SEO Optimization:** Utilizes `react-helmet` for managing SEO content.
+- **Icon Library:** Includes icons using `react-icons`.
+- **Routing:** Implements routing using `react-router-dom`.
+- **Typing Effect:** Includes a typewriter effect using `typewriter-effect`.
+
+## Tech Stack
+
+- **React**
+- **React Router**
+- **TailwindCss**
+- **Mantine UI**
+- **React Icons:**
+- **Framer Motion:**
+- **Lottie React:**
+- **React Helmet:**
+- **Firebase:**
+- **EmailJS Browser:**
+- **Typewriter Effect:**
+
+## Development Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository_url>
+   
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+
+
+## Building
+
+To build the website for production:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm run build
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This command generates a production-ready build in the `dist` directory.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

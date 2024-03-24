@@ -1,16 +1,22 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        carattere: ["Carattere", "cursive"],
+        roboto: ["Roboto", "sans-serif"],
+      },
+      colors: {
+        bgDark: "hsl(var(--color-bg-dark) / <alpha-value>)",
+        bgDarkMute: "hsl(var(--color-bg-dark-mute) / <alpha-value>)",
+        content: "hsl(var(--color-content) / <alpha-value>)",
+        contentHighlight: "hsl(var(--color-content-highlight)  / <alpha-value>)",
+        buttonMain: "hsl(var(--color-button) / <alpha-value>)",
+        buttonHover: "hsl(var(--color-button-hover)  / <alpha-value>)",
+        skillBg: "hsl(var(--color-skill-bg)  / <alpha-value>)",
+        skillBgHover: "hsl(var(--color-skill-bg-hover)  / <alpha-value>)",
+        skillShadow: "hsl(var(--color-skill-shadow)  / <alpha-value>)",
       },
     },
   },
